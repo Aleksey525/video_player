@@ -13,7 +13,8 @@
 #player .js-play-button,
 #player .js-pause-button,
 #player .js-volume-button,
-#player .js-mute-button {
+#player .js-mute-button,
+#player .js-fullscreen-button {
   background-color: transparent;
   border-style: none;
   color: white;
@@ -25,6 +26,11 @@
 }
 
 #player div {
+  display: flex;
   background-color: black;
+}
+
+#player .empty-space {
+  flex-grow: 2;
 }
 
