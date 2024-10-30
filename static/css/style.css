@@ -11,7 +11,9 @@
 }
 
 #player .js-play-button,
-#player .js-pause-button {
+#player .js-pause-button,
+#player .js-volume-button,
+#player .js-mute-button {
   background-color: transparent;
   border-style: none;
   color: white;
