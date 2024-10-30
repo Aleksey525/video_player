@@ -25,12 +25,12 @@
   margin-right: 2px;
 }
 
-#player div {
+#player .control-buttons {
   display: flex;
   background-color: black;
 }
 
 #player .empty-space {
-  flex-grow: 2;
+  flex-grow: 1;
 }
 
