@@ -6,7 +6,7 @@
   flex-direction: column;
 }
 
-#player .js-video-container {
+#player .video-container-style {
   flex-grow: 1;
 }
 
