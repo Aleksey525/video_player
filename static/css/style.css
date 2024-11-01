@@ -10,11 +10,7 @@
   flex-grow: 1;
 }
 
-#player .js-play-button,
-#player .js-pause-button,
-#player .js-volume-button,
-#player .js-mute-button,
-#player .js-fullscreen-button {
+#player .button-style {
   background-color: transparent;
   border-style: none;
   color: white;
