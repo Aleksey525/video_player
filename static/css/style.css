@@ -30,3 +30,11 @@
   flex-grow: 1;
 }
 
+#player .time-style {
+  color: white;
+  margin-top: 11px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
