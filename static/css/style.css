@@ -55,7 +55,7 @@
     border-radius: 10px;
 }
 
-.dot {
+#player .dot {
   height: 8px;
   width: 8px;
   background-color: #f8104d;
@@ -64,5 +64,18 @@
   box-shadow: -2px 0px 7px rgba(0,0,0,0.8);
   margin-top: 3px;
   margin-left: -7px;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
 }
+
+#player .progress-style:hover .dot {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+}
+
+
 
