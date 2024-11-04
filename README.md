@@ -2,7 +2,7 @@
 
 Видеоплеер построенный на базе библиотеки  [jQuery](https://jquery.com/) и [Playable](https://wix.github.io/playable/).
 
-![screenshot](https://github.com/Aleksey525/static_site/blob/main/video_player_new_2.jpg)
+![screenshot](https://github.com/Aleksey525/static_site/blob/main/video_player_new_3.jpg)
 
 ### Сценарии использования
 * Скачать репозиторий, открыть в браузере файл `index.html`, запустить плеер.  
