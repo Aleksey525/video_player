@@ -28,7 +28,7 @@
   cursor: pointer;
   width: 35px;
   height: 41px;
-  font-size: 122%;
+  font-size: 20px;
   margin-right: 2px;
 }
 
@@ -45,15 +45,15 @@
   color: white;
   margin-top: 11px;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-size: 16px;
   font-style: normal;
 }
 
 #player .progress-style {
     background-color: black;
-    margin-top: 11px;
+    margin-top: 10px;
     height: 20px;
-    margin-left: 12px;
+    margin-left: 11px;
     margin-right: 12px;
     flex-grow: 1;
     display: flex
@@ -74,7 +74,7 @@
   border-radius: 50%;
   border-color: white;
   box-shadow: -2px 0px 7px rgba(0,0,0,0.8);
-  margin-top: 3px;
+  margin-top: 2px;
   margin-left: -7px;
   opacity: 0;
   transition-property: opacity;
