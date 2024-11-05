@@ -37,26 +37,21 @@
   background-color: black;
 }
 
-#player .empty-space {
-  flex-grow: 1;
-}
-
 #player .time-style {
   color: white;
-  margin-top: 12px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
+
 }
 
 #player .progress-style {
     background-color: black;
-    margin-top: 10px;
     height: 20px;
     margin-left: 11px;
     margin-right: 12px;
     flex-grow: 1;
-    display: flex
+    display: flex;
 }
 
 #player .slider-style {
@@ -87,6 +82,12 @@
   transition-property: opacity;
   transition-duration: 0.3s;
   transition-timing-function: ease-in;
+}
+
+#player .control-container {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
 }
 
 
